@@ -18,7 +18,6 @@ Folder Layout
 * routes - Express routes.
 * test - Jasmine tests coming soon.
 * views - Jade views.
-<!-- * target - Built output for production deployment (not checked in). -->
 
 Root Files
 ----------
