@@ -1,0 +1,14 @@
+extends layout
+
+block scripts
+	link(rel='stylesheet',href='/styles/stats.css',type='text/css')
+
+block content
+	h1 Environment variables
+
+	if name
+		p This is a Jade parameter: #{name}
+
+	ul
+		each value in properties
+			li= value[0] + ': ' + value[1]

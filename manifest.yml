@@ -1,0 +1,9 @@
+---
+applications:
+- name: nodejs-getting-started
+  memory: 256M
+  instances: 1
+  host: nodejs-getting-started
+
+  path: .
+  buildpack: https://github.com/cgfrost/heroku-buildpack-nodejs.git
