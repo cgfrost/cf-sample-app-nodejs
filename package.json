@@ -14,7 +14,7 @@
 		"url": "https://github.com/cgfrost/nodejs-getting-started"
 	},
 	"scripts": {
-		"start": "node server.js",
+		"start": "node server.js --use_strict",
 		"test": "gulp test"
 	},
 	"dependencies": {

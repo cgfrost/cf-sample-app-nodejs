@@ -1,6 +1,7 @@
 /**
  * Created by cgfrost on 14/03/2014.
  */
+"use strict";
 
 var lessMiddleware = require('less-middleware');
 var express = require('express');
