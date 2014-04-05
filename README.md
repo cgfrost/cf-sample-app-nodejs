@@ -1,5 +1,6 @@
-NodeJS Getting Started
-======================
+# NodeJS Getting Started [![dependency Status](https://david-dm.org/cgfrost/nodejs-cf-sample-app /status.png?theme=shields.io)](https://david-dm.org/cgfrost/nodejs-cf-sample-app #info=dependencies)[![devDependency Status](https://david-dm.org/cgfrost/nodejs-cf-sample-app /dev-status.png?theme=shields.io)](https://david-dm.org/cgfrost/nodejs-cf-sample-app #info=devDependencies)
+
+
 
 <!--
 [![Build Status](https://travis-ci.org/cloudfoundry/java-buildpack.png?branch=master)](https://travis-ci.org/cloudfoundry/java-buildpack)
