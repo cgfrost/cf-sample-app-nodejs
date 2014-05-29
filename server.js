@@ -1,6 +1,8 @@
 /**
  * Created by cgfrost on 14/03/2014.
  */
+
+/*jslint node: true */
 "use strict";
 
 var lessMiddleware = require('less-middleware');
