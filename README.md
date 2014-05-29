@@ -1,7 +1,8 @@
 NodeJS Cloud Foundry Sample App
 ===============================
-[![dependencies Status](https://david-dm.org/cgfrost/nodejs-cf-sample-app/status.png?theme=shields.io)](https://david-dm.org/cgfrost/nodejs-cf-sample-app#info=dependencies)
-[![devDependencies Status](https://david-dm.org/cgfrost/nodejs-cf-sample-app/dev-status.png?theme=shields.io)](https://david-dm.org/cgfrost/nodejs-cf-sample-app#info=devDependencies)
+[![Build Status](https://travis-ci.org/cgfrost/cf-sample-app-nodejs.svg?branch=master)](https://travis-ci.org/cgfrost/cf-sample-app-nodejs)
+[![dependencies Status](https://david-dm.org/cgfrost/cf-sample-app-nodejs/status.png?theme=shields.io)](https://david-dm.org/cgfrost/cf-sample-app-nodejs#info=dependencies)
+[![devDependencies Status](https://david-dm.org/cgfrost/cf-sample-app-nodejs/dev-status.png?theme=shields.io)](https://david-dm.org/cgfrost/cf-sample-app-nodejs#info=devDependencies)
 
 A sample NodeJS application to demonstrate project structure, building and deployments.
 
