@@ -12,3 +12,4 @@ lib-cov
 target
 npm-debug.log
 node_modules
+bower_components

@@ -15,9 +15,11 @@
   },
   "scripts": {
     "start": "node server.js --use_strict",
-    "test": "node_modules/.bin/gulp"
+    "test": "node_modules/.bin/gulp",
+    "prepublish": "node_modules/.bin/bower install"
   },
   "dependencies": {
+    "bower": "^1.3.3",
     "express": "4.2.x",
     "jade": "1.3.x",
     "less-middleware": "1.0.x"
@@ -25,6 +27,7 @@
   "devDependencies": {
     "chai": "^1.9.1",
     "gulp": "^3.5.6",
+    "gulp-bower": "0.0.5",
     "gulp-clean": "0.2.x",
     "gulp-jade": "0.5.x",
     "gulp-jslint": "^0.1.0",
