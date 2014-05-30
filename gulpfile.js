@@ -7,10 +7,19 @@ var mocha = require('gulp-mocha');
 var jslint = require('gulp-jslint');
 
 
-gulp.task('default', ['clean', 'jshint', 'test'], function () {
+gulp.task('default', ['clean', 'test', 'build'], function () {
 });
 
-gulp.task('test', function(){
+/* CLEAN */
+
+gulp.task('clean', function () {
+    gulp.src(['./target', 'node_modules', 'public/bower_components'], {read: false})
+        .pipe(clean());
+});
+
+/* TEST */
+
+gulp.task('test', ['jshint'], function(){
     gulp.src('test/**/*.js')
         .pipe(mocha({
             reporter: 'spec'
@@ -34,8 +43,8 @@ gulp.task('jshint', function () {
         });
 });
 
+/* BUILD */
 
-gulp.task('clean', function () {
-	gulp.src('./target', {read: false})
-		.pipe(clean());
+gulp.task('build', function () {
+
 });

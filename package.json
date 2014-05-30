@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "node server.js --use_strict",
-    "test": "node_modules/.bin/gulp",
+    "test": "node_modules/.bin/gulp test",
     "prepublish": "node_modules/.bin/bower install"
   },
   "dependencies": {
