@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 
-// include plug-ins
+/* PLUG-INS */
 
 var clean = require('gulp-clean');
 var mocha = require('gulp-mocha');
