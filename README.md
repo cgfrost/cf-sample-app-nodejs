@@ -4,6 +4,8 @@ NodeJS Cloud Foundry Sample App
 [![dependencies Status](https://david-dm.org/cgfrost/cf-sample-app-nodejs/status.png?theme=shields.io)](https://david-dm.org/cgfrost/cf-sample-app-nodejs#info=dependencies)
 [![devDependencies Status](https://david-dm.org/cgfrost/cf-sample-app-nodejs/dev-status.png?theme=shields.io)](https://david-dm.org/cgfrost/cf-sample-app-nodejs#info=devDependencies)
 
+This repo isn't activly maintained but should still work.
+
 A sample NodeJS application to demonstrate project structure, building and deployments.
 
 Folder Layout
