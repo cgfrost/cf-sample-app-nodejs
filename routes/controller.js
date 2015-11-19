@@ -4,6 +4,7 @@ module.exports = function (app) {
 
 	app.get('/stats/:name?', function (req, res, next) {
 
+    console.log('Got request: ' + req.path);
 		var name = req.params.name;
 
 		var sorter = function(objectToSort){
@@ -38,6 +39,7 @@ module.exports = function (app) {
 	});
 
 	app.get('/*', function (req, res) {
+    console.log('Got request: ' + req.path);
 		res.render('index');
 	});
 
