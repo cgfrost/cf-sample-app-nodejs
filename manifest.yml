@@ -4,5 +4,6 @@ applications:
   memory: 128M
   instances: 1
   host: cf-nodejs
+  buildpack: nodejs_buildpack
   path: .
   
